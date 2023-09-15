@@ -45,6 +45,8 @@
   <ItemGroup>
     <None Include="Archive\ex2-11.cs" />
     <None Include="Archive\ch2-converter.cs" />
+    <None Include="Archive\ex2-29.cs" />
+    <None Include="Archive\ch2-variableArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
