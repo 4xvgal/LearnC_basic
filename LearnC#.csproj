@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -47,11 +47,29 @@
     <None Include="Archive\ch2-converter.cs" />
     <None Include="Archive\ex2-29.cs" />
     <None Include="Archive\ch2-variableArray.cs" />
+    <None Include="Archive\ch3\ch3-calc.cs" />
+    <None Include="Archive\ch3\ex3-15.cs" />
+    <None Include="Archive\ch3\ch3-ScoreToInt.cs" />
+    <None Include="Archive\ch3\ch3-rowNcolumnConv.cs" />
+    <None Include="Archive\ch3\ch3-printArray.cs" />
+    <None Include="Archive\ch3\ex3-19.cs" />
+    <None Include="Archive\ch3\ex3-23.cs" />
+    <None Include="Archive\ch4\ex4-1_cons_overload.cs" />
+    <None Include="Archive\ch4\ex4-6.cs" />
+    <None Include="Archive\ch4\ex4-14.cs" />
+    <None Include="Archive\ch4\autoProperty.cs" />
+    <None Include="Archive\ch4\MinNMaxClass.cs" />
+    <None Include="Archive\ch4\ex4-1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Archive\ch4\ex4-1plus.cs">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </None>
+    <None Include="Archive\ch4\ex4-2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -14,8 +14,7 @@ class Program
         Console.WriteLine("2.최대값");
         Console.WriteLine("3. 프로그램 종료");
 
-        Boolean stateIndicator = true;
-        while (stateIndicator)
+        while (true)
         {
             Console.WriteLine("메뉴 선택");
             int select = int.Parse(Console.ReadLine());
@@ -34,7 +33,6 @@ class Program
                     break;
                 case 3:
                     Console.WriteLine("프로그램 종료합니다.");
-                    stateIndicator = false;
                     break;
                 default: break;
             }
