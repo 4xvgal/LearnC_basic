@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Shape">
+      <HintPath>bin\Shape.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -60,12 +63,18 @@
     <None Include="Archive\ch4\autoProperty.cs" />
     <None Include="Archive\ch4\MinNMaxClass.cs" />
     <None Include="Archive\ch4\ex4-1.cs" />
-    <None Include="Archive\ch4\ex4-18.cs" />
+    <None Include="Archive\ch4\ex4-18_indexer.cs" />
     <None Include="Archive\ch4\indexNpropertyCalc.cs" />
     <None Include="Archive\ch5\ex5-5.cs" />
     <None Include="Archive\ch5\DeriverdEx_calculator.cs" />
     <None Include="Archive\ch4\ex4-19.cs" />
     <None Include="Archive\ch5\ex5-4.cs" />
+    <None Include="Archive\ch5\ex5-15.cs" />
+    <None Include="Archive\ch4\ex4-24_op_overloading.cs" />
+    <None Include="Archive\ch4\ch4-17.cs" />
+    <None Include="Archive\ch4\AbstractClassEx.cs" />
+    <None Include="Archive\ch4\ex4-26_UserDefinedTypeConversion.cs" />
+    <None Include="Archive\ch5\ex5-11_interface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="Archive\ch4\ex4-1plus.cs">
