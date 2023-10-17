@@ -59,7 +59,7 @@ class Complex
     //ToString() 메소드 오버라이딩
     public override string ToString()
     {
-        return "("+real+", "+image+"i)";
+        return "(" + real + ", " + image + "i)";
     }
 }
 

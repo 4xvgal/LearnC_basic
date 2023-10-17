@@ -46,10 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Archive\ex2-11.cs" />
-    <None Include="Archive\ch2-converter.cs" />
-    <None Include="Archive\ex2-29.cs" />
-    <None Include="Archive\ch2-variableArray.cs" />
+    <None Include="Archive\ch2\ex2-11.cs" />
+    <None Include="Archive\ch2\ch2-converter.cs" />
+    <None Include="Archive\ch2\ex2-29.cs" />
+    <None Include="Archive\ch2\ch2-variableArray.cs" />
     <None Include="Archive\ch3\ch3-calc.cs" />
     <None Include="Archive\ch3\ex3-15.cs" />
     <None Include="Archive\ch3\ch3-ScoreToInt.cs" />
@@ -57,30 +57,36 @@
     <None Include="Archive\ch3\ch3-printArray.cs" />
     <None Include="Archive\ch3\ex3-19.cs" />
     <None Include="Archive\ch3\ex3-23.cs" />
-    <None Include="Archive\ch4\ex4-1_cons_overload.cs" />
-    <None Include="Archive\ch4\ex4-6.cs" />
-    <None Include="Archive\ch4\ex4-14.cs" />
+    <None Include="Archive\ch4\Example\ex4-1_cons_overload.cs" />
+    <None Include="Archive\ch4\Example\ex4-6.cs" />
+    <None Include="Archive\ch4\Example\ex4-14.cs" />
     <None Include="Archive\ch4\autoProperty.cs" />
     <None Include="Archive\ch4\MinNMaxClass.cs" />
-    <None Include="Archive\ch4\ex4-1.cs" />
-    <None Include="Archive\ch4\ex4-18_indexer.cs" />
+    <None Include="Archive\ch4\Example\ex4-1.cs" />
+    <None Include="Archive\ch4\Example\ex4-18_indexer.cs" />
     <None Include="Archive\ch4\indexNpropertyCalc.cs" />
     <None Include="Archive\ch5\ex5-5.cs" />
     <None Include="Archive\ch5\DeriverdEx_calculator.cs" />
-    <None Include="Archive\ch4\ex4-19.cs" />
+    <None Include="Archive\ch4\Example\ex4-19.cs" />
     <None Include="Archive\ch5\ex5-4.cs" />
     <None Include="Archive\ch5\ex5-15.cs" />
-    <None Include="Archive\ch4\ex4-24_op_overloading.cs" />
-    <None Include="Archive\ch4\ch4-17.cs" />
+    <None Include="Archive\ch4\Example\ex4-24_op_overloading.cs" />
+    <None Include="Archive\ch4\Practice\ch4-17.cs" />
     <None Include="Archive\ch4\AbstractClassEx.cs" />
-    <None Include="Archive\ch4\ex4-26_UserDefinedTypeConversion.cs" />
+    <None Include="Archive\ch4\Example\ex4-26_UserDefinedTypeConversion.cs" />
     <None Include="Archive\ch5\ex5-11_interface.cs" />
+    <None Include="Archive\ch3\ch3-9-7-1.cs" />
+    <None Include="Archive\ch3\ch3-9-7-2.cs" />
+    <None Include="Archive\ch3\ch3-9-8.cs" />
+    <None Include="Archive\ch3\ch3-9-10.cs" />
+    <None Include="Archive\ch4\Practice\ch4-11_Fraction.cs" />
+    <None Include="Archive\ch4\Practice\ch4-16_operator_overriding.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="Archive\ch4\ex4-1plus.cs">
+    <None Include="Archive\ch4\Example\ex4-1plus.cs">
       <Generator>ResXFileCodeGenerator</Generator>
     </None>
-    <None Include="Archive\ch4\ex4-2.cs" />
+    <None Include="Archive\ch4\Example\ex4-2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

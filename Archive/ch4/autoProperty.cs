@@ -3,9 +3,7 @@
 
 class Fraction
 {
-    private int numerator;
-    private int denominator;
-
+    
     public int Numerator { get; set; } // 분자 자동 프로퍼티
     public int Denominator { get; set; } // 분모 자동 프로퍼티
     //ToString 기본 메소드 오버라이딩
