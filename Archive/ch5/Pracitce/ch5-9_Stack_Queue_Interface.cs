@@ -1,6 +1,7 @@
 ﻿//ch5-9
 //Interface 
 
+
 using System;
 using System.Collections;
 using System.Runtime.InteropServices;
@@ -25,7 +26,7 @@ public class Stack : IOperation
     int[] arr; // 요소 저장할 배열
     public Stack(int size) //생성자로 배열 초기화
     {
-        arr= new int[size]; //size 만큼 배열 할당
+        arr = new int[size]; //size 만큼 배열 할당
         top = 0;            //top인덱스 초기화
     }
     public string Delete() //pop 연산
@@ -94,7 +95,8 @@ public class MyQueue : IOperation
         if (front == arr.Length)
         {
             throw new System.NotImplementedException("Queue is Empty");
-        }else
+        }
+        else
         {
 
         }
@@ -129,15 +131,16 @@ public class MyQueue : IOperation
 
     public bool Search(string str) //큐에서 주어진 원소의 존재여부를 반환한다.
     {
-        for (int i = front; i <= rear; i++) {
+        for (int i = front; i <= rear; i++)
+        {
             if (int.Parse(str) == arr[i]) { return true; }
         }
         return false;
     }
 }
-    class Program
-    {
-   public static void Main()
+class Program
+{
+    public static void Main()
     {
         //스택 테스트
         Console.WriteLine("-- Stack test --");
@@ -160,6 +163,6 @@ public class MyQueue : IOperation
         Console.WriteLine("current queue size :{0}", b.NumOfElements());
         Console.WriteLine("Front value : " + b.GetCrurrentElt());
         Console.WriteLine("Searching '4' : " + b.Search("4"));
-        
+
     }
 }

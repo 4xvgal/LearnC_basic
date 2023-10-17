@@ -81,6 +81,8 @@
     <None Include="Archive\ch3\ch3-9-10.cs" />
     <None Include="Archive\ch4\Practice\ch4-11_Fraction.cs" />
     <None Include="Archive\ch4\Practice\ch4-16_operator_overriding.cs" />
+    <None Include="Archive\ch5\Pracitce\ch5-8_abstractClass.cs" />
+    <None Include="Archive\ch5\Pracitce\ch5-9_Stack_Queue_Interface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="Archive\ch4\Example\ex4-1plus.cs">
