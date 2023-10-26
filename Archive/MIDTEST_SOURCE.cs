@@ -32,12 +32,11 @@ class Emp : Person
         return Avg;
     }
     //jum 배열에 대한 인덱서 
-    public int this[int index]
+    public int this[int index] //indexer 치고 탭두번
     {
         get { return jum[index]; }
         set { jum[index] = value; }
     }
-
     //파생 클래스 구현
     public override void show()
     {
