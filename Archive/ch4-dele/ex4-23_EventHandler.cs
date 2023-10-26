@@ -26,7 +26,7 @@ class EventHandlingApp
     public static void Main()
     {
         Button button = new Button();
-        EventHandlerClass obj = new EventHandlerClass();
+        EventH andlerClass obj = new EventHandlerClass();
         button.Push += new MyEventHandler(obj.MyMethod); //등록
         button.OnPush();
     }

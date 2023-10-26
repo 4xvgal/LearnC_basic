@@ -3,7 +3,7 @@
 class Date
 {
     private int day, month, year;
-    public Date(int mm, int dd ,int yy)
+    public Date(int mm, int dd, int yy)
     {
         day = dd;
         month = mm;
@@ -11,19 +11,21 @@ class Date
     }
 
     //연산자 중복
-    public static Date operator +(Date d, int n) { 
-    d.day = d.day + n;
+    public static Date operator +(Date d, int n)
+    {
+        d.day = d.day + n;
         return d;
 
     }
-    public static Date operator -(Date d, int n) {
-    d.day -= n;
+    public static Date operator -(Date d, int n)
+    {
+        d.day -= n;
         return d;
     }
     // 대칭 중복해줘야하는 연산자 중복
     public static bool operator ==(Date a, Date b)
     {
-        if(a.year == b.year && a.month == b.month && a.day == b.day)
+        if (a.year == b.year && a.month == b.month && a.day == b.day)
         {
             return true;
         }
@@ -32,10 +34,10 @@ class Date
     public static bool operator !=(Date a, Date b)
     { return false; }
     //대칭중복 < > 
-    
+
     public static bool operator >(Date a, Date b)
     {
-        if(a.year > b.year && a.month > b.month && a.day > b.day)
+        if (a.year > b.year && a.month > b.month && a.day > b.day)
             return true;
         return false;
     }
@@ -53,7 +55,7 @@ class Date
     }
     public static Date operator --(Date a)
     {
-        a.day --;
+        a.day--;
         return a;
     }
 

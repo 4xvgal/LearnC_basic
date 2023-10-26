@@ -34,17 +34,17 @@ class Fraction
         Numerator = 0;
         Denominator = 0;
     }
-    public void setData(int num, int denom)
+    public void setData(int num, int denom) //데이터 셋
     {
         Numerator = num;
         Denominator = denom;
     }
     //메소드
-    public override string ToString()
+    public override string ToString() //ToString 오버라이딩
     {
         return numerator + "/" + denominator;
     }
-    public int GetGcd(int a, int b)
+    public int GetGcd(int a, int b) // 최대공약수 계산함수
     {
         if (b == 0)
         {
@@ -71,7 +71,7 @@ class Fraction
 
         return output;
     }
-    public Fraction AddFraction(Fraction a, Fraction b)
+    public Fraction AddFraction(Fraction a, Fraction b) // 더하기 연산
     {
         Fraction output = new Fraction();
 
@@ -80,7 +80,7 @@ class Fraction
 
         return output;
     }
-    public Fraction SubFraction(Fraction a, Fraction b)
+    public Fraction SubFraction(Fraction a, Fraction b) // 빼기 연산
     {
         Fraction output = new Fraction();
 
@@ -89,7 +89,7 @@ class Fraction
 
         return output;
     }
-    public Fraction MulFraction(Fraction a, Fraction b)
+    public Fraction MulFraction(Fraction a, Fraction b) // 곱하기 연산
     {
         Fraction output = new Fraction();
 
@@ -98,7 +98,7 @@ class Fraction
 
         return output;
     }
-    public Fraction DivFraction(Fraction a, Fraction b)
+    public Fraction DivFraction(Fraction a, Fraction b) // 나누기 연산
     {
         Fraction output = new Fraction();
 

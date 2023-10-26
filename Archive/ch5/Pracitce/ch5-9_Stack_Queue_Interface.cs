@@ -33,6 +33,7 @@ public class Stack : IOperation
     {
         if (top == 0)
         {
+            //예외처리
             throw new System.NotImplementedException("Error: couldn't Delete elements, stack is empty");
         }
         else
@@ -61,7 +62,6 @@ public class Stack : IOperation
     public int NumOfElements() //현재 요소 갯수 리턴
     {
         return top;
-        throw new System.NotImplementedException();
     }
 
     public bool Search(string str) //입력받은 요소가 스택에 존재하면 true 리턴
@@ -73,7 +73,6 @@ public class Stack : IOperation
             if (tmp == arr[i]) return true;
         }
         return false;
-        throw new System.NotImplementedException();
     }
 
 }
@@ -94,6 +93,7 @@ public class MyQueue : IOperation
     {
         if (front == arr.Length)
         {
+            //예외처리
             throw new System.NotImplementedException("Queue is Empty");
         }
         else
@@ -115,6 +115,7 @@ public class MyQueue : IOperation
     {
         if (rear == arr.Length)
         {
+            //예외처리
             throw new System.NotImplementedException("Error : queue is full");
         }
         else

@@ -87,6 +87,10 @@
     <None Include="Archive\ch4-dele\ex4-21.cs" />
     <None Include="Archive\Test-1.cs" />
     <None Include="Archive\ch4-dele\ex4-23_EventHandler.cs" />
+    <None Include="Archive\ch5\Pracitce\ch5-6-2.cs" />
+    <None Include="Archive\ch5\Pracitce\ch5-6-3.cs" />
+    <None Include="Archive\ch5\Pracitce\ch5-6-1.cs" />
+    <None Include="Archive\ch4\Practice\4.18_operatorOverriding.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="Archive\ch4\Example\ex4-1plus.cs">
@@ -97,6 +101,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="log.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
