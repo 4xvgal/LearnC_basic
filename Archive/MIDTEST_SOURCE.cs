@@ -96,11 +96,7 @@ static class TestProgram
 
     public static void output(Emp[] n, int index) //출력메소드 
     {
-        if (index == 0)
-        {
-            Console.WriteLine("ERROR: Array is empty");
-            return;
-        }
+        
         Console.WriteLine("======================================================================");
         Console.WriteLine("{0,-10}      {1,-10}     {2,-10}     {3,-10}     {4,-10}", "부서", "1", "2", "3 분기", "평균");
         Console.WriteLine("======================================================================");

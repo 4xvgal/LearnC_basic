@@ -1,4 +1,4 @@
-﻿using System;
+﻿Lusing System;
 //ex 4-26
 //형변환 연산자 중복
 

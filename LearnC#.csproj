@@ -93,6 +93,10 @@
     <None Include="Archive\ch4\Practice\4.18_operatorOverriding.cs" />
     <None Include="Archive\ch4\Practice\ch4-UNKOWN_ date app.cs" />
     <None Include="Archive\ch5\Pracitce\ch5-9_implicitOperator.cs" />
+    <None Include="Archive\ch5\Pracitce\ch5-10_multi_interface.cs" />
+    <None Include="Archive\fileIO\fileEx.cs" />
+    <None Include="Archive\fileIO\ex12-6.cs" />
+    <None Include="Archive\fileIO\studentFileEx.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="Archive\ch4\Example\ex4-1plus.cs">

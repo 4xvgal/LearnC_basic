@@ -24,8 +24,8 @@ class Program
         {
             FileStream file = new FileStream(path, FileMode.Open, FileAccess.Read);
             StreamReader sr = new StreamReader(file, System.Text.Encoding.Default);
-            sr.BaseStream.Seek(0,SeekOrigin.Begin);
-            while(sr.Peek() > -1)
+            sr.BaseStream.Seek(0, SeekOrigin.Begin);
+            while (sr.Peek() > -1)
             {
                 Console.WriteLine(sr.ReadLine());
             }
@@ -34,8 +34,8 @@ class Program
         }
         public void fileClear()
         {
-           //make file blank
-           FileStream file = new FileStream(path, FileMode.Create, FileAccess.Write);
+            //make file blank
+            FileStream file = new FileStream(path, FileMode.Create, FileAccess.Write);
             StreamWriter sw = new StreamWriter(file, System.Text.Encoding.Default);
             sw.Write("");
             sw.Close();
@@ -45,7 +45,7 @@ class Program
 
     public static void Main()
     {
-        
+
         while (true)
         {
             Console.WriteLine("=============================");
@@ -56,9 +56,9 @@ class Program
             Console.WriteLine("=============================");
 
             int menuSelect = int.Parse(Console.ReadLine());
-             Student std = new Student();
+            Student std = new Student();
 
-        
+
             switch (menuSelect)
             {
                 case 1:
@@ -85,7 +85,7 @@ class Program
                     break;
                 default:
                     Console.WriteLine("잘못된 입력입니다.");
-                    
+
                     break;
             }
         }
